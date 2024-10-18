@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<div th:fragment="footer">
+    <footer class="text-body-secondary py-5">
+        <div class="container">
+            <p class="float-end mb-1">
+                <a href="#" th:text="#{footer.backToTop}">Back to top</a>
+            </p>
+            <p class="mb-1" th:text="#{footer.message}">Откройте мир идей и вдохновения — читайте, делитесь и обсуждайте с нами!!</p>
+            <p class="mb-0">
+                <span th:text="#{footer.readMore}">Нечего почитать?</span>
+                <a href="/" th:text="#{header.home}">Посетите главную страницу</a>
+                <span th:text="#{footer.orWrite}">или напишите свою</span>
+                <a href="/blog/add" th:text="#{header.addPost}">статью</a>.
+            </p>
+        </div>
+    </footer>
+</div>iv>
